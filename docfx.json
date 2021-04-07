@@ -22,6 +22,14 @@
           "toc.yml",
           "*.md"
         ]
+      },
+      {
+        "files": [
+          "Tools/**.md",
+          "Tools/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
       }
     ],
     "dest": "_site",
