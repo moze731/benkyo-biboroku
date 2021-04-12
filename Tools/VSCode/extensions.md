@@ -2,8 +2,6 @@
 
 ## 何をするにも入れるやつ
 
-### 一覧
-
 - 見た目に関するもの
     - pkief.material-icon-theme
     - ibm.output-colorizer
@@ -14,59 +12,78 @@
     - wayou.vscode-todo-highlight
     - alefragnani.bookmarks
 
-### devcontainer.json用
-
-```json
-"pkief.material-icon-theme",
-"ibm.output-colorizer",
-"mechatroner.rainbow-csv",
-"christian-kohler.path-intellisense",
-
-"gruntfuggly.todo-tree",
-"wayou.vscode-todo-highlight",
-"alefragnani.bookmarks",
-```
-
 ## コーディングを快適に
-
-### 一覧
 
 - streetsidesoftware.code-spell-checker
 - coenraads.bracket-pair-colorizer-2
 - mosapride.zenkaku
 
-
-### devcontainer.json用
-
-```json
-"streetsidesoftware.code-spell-checker",
-"coenraads.bracket-pair-colorizer-2",
-"mosapride.zenkaku",
-```
-
 ## Json
-
-
-### 一覧
 
 - nickdemayo.vscode-json-editor
 - quicktype.quicktype
 
-### devcontainer.json用
+## C#
 
-```json
-"nickdemayo.vscode-json-editor",
-"quicktype.quicktype",
-```
+- ms-dotnettools.csharp
+- mavusi.csharpextensions
+- fudge.auto-using
+- eservice-online.vs-sharper
+- k--kato.docomment
+- formulahendry.dotnet-test-explorer
+
+## VisualStudio互換
+
+- formulahendry.dotnet-test-explorer
+- jmrog.vscode-nuget-package-manager
+- jesschadwick.nuget-reverse-package-search
+
+## Git
+
+- mhutchie.git-graph
+- eamodio.gitlens
 
 ## その他
 
-### 一覧
-
 - hediet.vscode-drawio
 
-### devcontainer.json用
+## devcontainer.json用
+
 
 ```json
-"hediet.vscode-drawio",
+{
+    // 何をするにも入れるやつ
+    // 見た目に関するもの
+    "pkief.material-icon-theme",
+    "ibm.output-colorizer",
+    "mechatroner.rainbow-csv",
+    "christian-kohler.path-intellisense",
+    // しおり系
+    "gruntfuggly.todo-tree",
+    "wayou.vscode-todo-highlight",
+    "alefragnani.bookmarks",
+    // コーディングを快適に
+    "streetsidesoftware.code-spell-checker",
+    "coenraads.bracket-pair-colorizer-2",
+    "mosapride.zenkaku",
+    // json
+    "nickdemayo.vscode-json-editor",
+    "quicktype.quicktype",
+    // C#
+    "ms-dotnettools.csharp",
+    "mavusi.csharpextensions",
+    "fudge.auto-using",
+    "eservice-online.vs-sharper",
+    "k--kato.docomment",
+    "formulahendry.dotnet-test-explorer",
+    // Visual Studio 互換
+    "formulahendry.dotnet-test-explorer",
+    "jmrog.vscode-nuget-package-manager",
+    "jesschadwick.nuget-reverse-package-search",
+    // Git
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    // その他
+    "hediet.vscode-drawio",
+}
 ```
