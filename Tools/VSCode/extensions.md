@@ -84,6 +84,6 @@
     "mhutchie.git-graph",
     "eamodio.gitlens",
     // その他
-    "hediet.vscode-drawio",
+    "hediet.vscode-drawio"
 }
 ```

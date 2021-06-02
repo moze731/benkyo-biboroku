@@ -1,2 +1,8 @@
 - name: IndexC#
   href: index.md
+- name: 宣言と初期化子
+  href: declaration.md
+- name: ファイルの読み書き
+  href: filereadwrite.md
+- name: テキスト操作
+  href: textoperation.md
