@@ -43,6 +43,15 @@
 - mhutchie.git-graph
 - eamodio.gitlens
 
+## HTML/CSS
+
+- formulahendry.auto-rename-tag
+- zignd.html-css-class-completion
+- pranaygp.vscode-css-peek
+- jzmstrjp.color-the-tag-name
+- kisstkondoros.vscode-gutter-preview
+- tht13.html-preview-vscode
+
 ## その他
 
 - hediet.vscode-drawio
@@ -76,6 +85,10 @@
     "eservice-online.vs-sharper",
     "k--kato.docomment",
     "formulahendry.dotnet-test-explorer",
+    // ASP.NET Core
+    "adrianwilczynski.asp-net-core-switcher",
+    "rahulsahay.csharp-aspnetcore",
+    "schneiderpat.aspnet-helper",
     // Visual Studio 互換
     "formulahendry.dotnet-test-explorer",
     "jmrog.vscode-nuget-package-manager",
@@ -83,6 +96,13 @@
     // Git
     "mhutchie.git-graph",
     "eamodio.gitlens",
+    // HTML
+    "formulahendry.auto-rename-tag",
+    "zignd.html-css-class-completion",
+    "pranaygp.vscode-css-peek",
+    "jzmstrjp.color-the-tag-name",
+    "kisstkondoros.vscode-gutter-preview",
+    "tht13.html-preview-vscode",
     // その他
     "hediet.vscode-drawio"
 }
