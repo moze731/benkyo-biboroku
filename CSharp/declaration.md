@@ -33,5 +33,32 @@ struct Person : IPerson {
 
 ### List<T>
 
+値型のシンプルな初期化
+
+```C#
+var list = new List<int> { 1, 2, 3, 4, 5 };
+```
+
+クラスのプロパティも同時に初期化
+```C#
+class Prop
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+
+static class Hoge
+{
+    static void Main()
+    {
+        var list = new List<Prop>
+                    {
+                        new Prop() { Name="Jon" Age=20 },
+                        new Prop() { Name="Taro" Age=10 }
+                    };
+    }
+}
+```
+
 ### Dictionary
 
