@@ -51,6 +51,8 @@
 - jzmstrjp.color-the-tag-name
 - kisstkondoros.vscode-gutter-preview
 - tht13.html-preview-vscode
+- formulahendry.auto-close-tag
+
 
 ## その他
 
@@ -103,6 +105,7 @@
     "jzmstrjp.color-the-tag-name",
     "kisstkondoros.vscode-gutter-preview",
     "tht13.html-preview-vscode",
+    "formulahendry.auto-close-tag",
     // その他
     "hediet.vscode-drawio"
 }
