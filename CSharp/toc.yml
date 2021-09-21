@@ -1,8 +1,13 @@
-- name: IndexC#
+- name: index
   href: index.md
 - name: 宣言と初期化子
   href: declaration.md
-- name: ファイルの読み書き
+- name: ファイル操作の読み書き
   href: filereadwrite.md
 - name: テキスト操作
   href: textoperation.md
+- name: WPF
+  href: wpf/wpf.md
+  items:
+    - name: DataGrid
+      href: wpf/Control/datagrid.md
