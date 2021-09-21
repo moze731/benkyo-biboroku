@@ -14,7 +14,7 @@ Classとの使い分けが難しい。基本的にはClassでいいと思われ�
 // 一番シンプルな構造体
 struct Human {
     public int Id { get; set; }
-    public string Name { get; set;}
+    public string Name { get; set; }
 }
 
 // interfaceを実装できる
@@ -30,6 +30,22 @@ struct Person : IPerson {
 ```
 
 ## 初期化子
+
+### Instance
+
+クラスインスタンス作成時に、同時にプロパティを設定する場合
+
+```C#
+// インスタンス作成元のクラス
+public class Person
+{
+    public string Name { get; set;}
+    public int Age { get; set;
+}
+
+//インスタンス作成と呼び出し
+var person = new Person { Name="Tanaka", Age=20 };
+```
 
 ### List<T>
 
